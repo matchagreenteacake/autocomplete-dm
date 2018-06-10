@@ -1,0 +1,152 @@
+[
+	{
+		"displayText": "Click",
+		"snippet": "Click(${1:object})",
+		"description": "Called when the player clicks on the map or in the stat panels.",
+		"type": "function"
+	},
+	{
+		"displayText": "DblClick",
+		"snippet": "DblClick(${1:object})",
+		"description": "Called when the player double-clicks on the map or in the stat panels.",
+		"type": "function"
+	},
+	{
+		"displayText": "MouseDrop",
+		"snippet": "MouseDrag(${1:obj/over_object as obj},)",
+		"description": "Called when the player double-clicks on the map or in the stat panels.",
+		"type": "function"
+	},
+	{
+		"displayText": "MouseDrop",
+		"snippet": "MouseDrag(${1:obj/over_object as obj},)",
+		"description": "Called when the player double-clicks on the map or in the stat panels.",
+		"type": "function"
+	},
+	{
+		"displayText": "MouseDrop",
+		"snippet": "MouseDrag(${1:obj/over_object as obj},)",
+		"description": "Called when the player double-clicks on the map or in the stat panels.",
+		"type": "function"
+	},
+	{
+		"displayText": "AllowUpload",
+		"snippet": "MouseDrag(${1:obj/over_object as obj},)",
+		"description": "Called when the player double-clicks on the map or in the stat panels.",
+		"type": "function"
+	},
+	{
+		"displayText": "gender",
+		"snippet": "gender = ${1:MALE/FEMALE/NEUTER/PLURAL}",
+		"description": "gender of something",
+		"type": "variable"
+	},
+	{
+		"displayText": "Topic",
+		"snippet": "Topic(href, href_list)",
+		"description": "Called by the topic() proc",
+		"type": "function"
+	},
+	{
+		"displayText": "parent_type",
+		"snippet": "parent_type",
+		"description": "parent of this object",
+		"type": "variable"
+	},
+	{
+		"displayText": "luminosity",
+		"snippet": "luminosity = ${1: 0 - 6}",
+		"description": "How far you casts light (0 - 6, integer)",
+		"type": "variable"
+	},
+	{
+		"displayText": "infra_luminosity",
+		"snippet": "infra_luminosity = ${1: 0 - 6}",
+		"description": "Visible to infrared-seeing mob",
+		"type": "variable"
+	},
+	{
+		"displayText": "loc",
+		"snippet": "loc",
+		"description": "Location of an object. Null if none",
+		"type": "variable"
+	},
+	{
+		"displayText": "invisibility",
+		"snippet": "invisibility = ${1: 0 - 101}",
+		"description": "the object's level of invisibility. 0 - 101.",
+		"type": "variable"
+	},
+	{
+		"displayText": "dir",
+		"snippet": "dir = ${1:NORTH, SOUTH, EAST, WEST, NORTHEAST, NORTHWEST, SOUTHEAST, SOUTHWEST}",
+		"description": "direction an object is facing",
+		"type": "variable"
+	},
+	{
+		"displayText": "params2list(params)",
+		"snippet": "params2list(${1:params})",
+		"description": "Converts a parameter string to a list.",
+		"type": "function"
+	},
+	{
+		"displayText": "list2params(List)",
+		"snippet": "list2params(${1:List})",
+		"description": "Convert a list of parameter & values into string",
+		"type": "function"
+	},
+	{
+		"displayText": "contents",
+		"text": "contents",
+		"description": "A list of an object's contents",
+		"type": "variable"
+	},
+	{
+		"displayText": "icon",
+		"snippet": "icon = \"${1:icon}\"",
+		"description": "An object's icon",
+		"type": "variable"
+	},
+	{
+		"displayText": "icon_state",
+		"snippet": "icon_state = \"${1:icon_state}\"",
+		"description": "Different icon depending on an item's state",
+		"type": "variable"
+	},
+	{
+		"displayText": "opacity",
+		"snippet": "opacity = ${1: 0 or 1}",
+		"description": "Toggle an object's opacity. Opaque objects block light",
+		"type": "variable"
+	},
+	{
+		"displayText": "contents",
+		"text": "contents",
+		"description": "A list of an object's contents",
+		"type": "variable"
+	},
+	{
+		"displayText": "overlays",
+		"text": "overlays",
+		"description": "A list of icons displayed on top of an object",
+		"type": "variable"
+	},
+	{
+		"displayText": "desc",
+		"snippet": "desc = \"${1:description}\"",
+		"description": "Description of an object.",
+		"type": "variable"
+	},
+	{
+		"displayText": "pick",
+		"snippet": "pick(${1:Val1},${2:Val2},${3:Val3})",
+		"description": "Randomly choose a value",
+		"type": "function"
+	},
+	{
+		"displayText": "byond_version",
+		"text": "byond_version",
+		"description": "byond_version of a client",
+		"type": "variable"
+	}
+]

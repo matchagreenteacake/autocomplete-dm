@@ -1,0 +1,25 @@
+{
+  "name": "autocomplete-dm",
+  "main": "./lib/main",
+  "version": "0.0.1",
+  "description": "Autocomplete provider for autocomplete-plus for the DM language",
+  "keywords": [
+    "autocomplete",
+    "provider",
+    "dm",
+    "byond"
+  ],
+  "repository": "https://github.com/lonekorean/atom-autocomplete-boilerplate",
+  "author": "John Smith (whitbauhinia@gmail.com)",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.15.0 <2.0.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  }
+}
